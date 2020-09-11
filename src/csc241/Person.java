@@ -1,6 +1,6 @@
 package csc241;
 
-public class Person {
+public abstract class Person {
     // Instance variables
     private String lastName;
     private String firstName;
@@ -17,4 +17,14 @@ public class Person {
     public String showValues(){
         return lastName + ", " + firstName + ": " + age;
     }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public abstract String getFullName();
 }
