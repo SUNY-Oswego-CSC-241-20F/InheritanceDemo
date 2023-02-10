@@ -1,6 +1,6 @@
 package csc241;
 
-public abstract class Person {
+public class Person {
     // Instance variables
     private String lastName;
     private String firstName;
@@ -26,5 +26,4 @@ public abstract class Person {
         return lastName;
     }
 
-    public abstract String getFullName();
 }

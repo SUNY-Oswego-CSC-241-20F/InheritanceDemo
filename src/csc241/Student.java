@@ -17,7 +17,7 @@ public class Student extends Person{
         return super.showValues() + " - " + major;
     }
 
-    @Override
+    // Can only be called on a Student object
     public String getFullName() {
         return this.getFirstName() + " " + this.getLastName();
     }
