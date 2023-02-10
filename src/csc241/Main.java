@@ -16,6 +16,6 @@ public class Main {
     System.out.println("S1: " + s1.showValues());
 
     // This won't work unless s1 is declared as a Student
-    // System.out.println("S1: " + s1.getFullName());
+    System.out.println("S1: " + s1.getFullName());
   }
 }
